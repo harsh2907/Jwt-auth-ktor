@@ -133,6 +133,7 @@ fun Route.authenticate(){
     }
 }
 
+//For testing purpose only. Can be removed
 fun Route.getSecretInfo(){
     authenticate{
         get("secret"){
